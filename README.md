@@ -46,7 +46,11 @@ This project builds, trains and deploy a deep learning model which transcribe au
 ### Modelling
 
 ### Deployment
-<p>The user interface was built with <b>flask</b>. The model was dockerized and deployed on <b>Heroku on https://swahili-stt.herokuapp.com/</p>
+<p>The user interface was built with <b>flask</b>. The model was dockerized and deployed on <b>Heroku on https://swahili-stt.herokuapp.com/
+</br>  
+TO run the docker image: docker run --rm -it -p 33507:33507/tcp nebasam/stt-swahili:latest
+    
+To Pull the docker image: docker pull nebasam/stt-swahili</p>
 
 ## Contributors
 1. [Michael Darko Ahwireng](https://github.com/mdahwireng)
